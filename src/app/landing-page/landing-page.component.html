@@ -1,0 +1,98 @@
+<div class="card fluid-container shadow-4">
+    <div class="flex flex-wrap align-items-center justify-content-end card-container purple-container">
+        <div class="border-round justify-content-center">
+            <!-- <p-dropdown
+                class="my-6 mx-0 md:my-0 border-round text-white font-bold p-3 flex align-items-center justify-content-end"
+                (onChange)="filterOnChange($event)" [options]="filterOptions" optionValue="name" optionLabel="name">
+            </p-dropdown> -->
+            <select class="custom-select" (change)="filterData($event)">
+                <option selected>Open this select menu</option>
+                <option value="Week One">Week One</option>
+                <option value="Week Two">Week Two</option>
+                <option value="Week Three">Week Three</option>
+                <option value="Week Four">Week Four</option>
+                <option value="First Month">Month One</option>
+                <option value="Second Month">Month Two</option>
+                <option value="All">All</option>
+            </select>
+        </div>
+        <div class="border-round justify-content-center">
+            <p-button
+                class="my-6 mx-0 md:my-0 border-round text-white font-bold p-3 flex align-items-center justify-content-end"
+                (click)="showResponsiveDialog()" icon="pi pi-external-link" label="Import Excel"></p-button>
+        </div>
+    </div>
+</div>
+<p-toast></p-toast>
+<p-dialog header="Import Excel" [(visible)]="displayResponsive" [modal]="true" [breakpoints]="{'960px': '75vw'}"
+    [style]="{width: '50vw'}" [draggable]="false" [resizable]="false">
+    <p-confirmDialog [style]="{width: '50vw'}" [baseZIndex]="10000" rejectButtonStyleClass="p-button-text">
+    </p-confirmDialog>
+    <div class="card">
+        <!-- accepts only xls file types -->
+        <p-fileUpload name="demo[]" [customUpload]="true" (uploadHandler)="onUpload($event)" accept=".xlsx,.xls">
+            <ng-template pTemplate="content">
+                <ul *ngIf="uploadedFiles.length">
+                    <div *ngFor="let file of uploadedFiles">
+                        <span class="d-flex">
+                            <img alt="excel-logo" height="25px"
+                                src="../../assets/images/excel.jpg">
+                            <div>{{file.name}} - {{file.size}} bytes</div>
+                        </span>
+                    </div>
+                </ul>
+            </ng-template>
+        </p-fileUpload>
+    </div>
+</p-dialog>
+<div class="container">
+    <div id="carouselExampleIndicators" class="card-container mt-3 carousel slide box shadow-6" data-ride="carousel" data-interval="2500">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" height="350px" src="../../assets/images/carousel-3.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" height="350px" src="../../assets/images/carousel-4.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" height="350px" src="../../assets/images/carousel-5.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</div>
+
+  <div class="container">
+    <h2 class="m-3 text-teal-800">{{status}}</h2>
+  </div>
+<div class="card container shadow-4">
+    <div class="flex align-items-stretch flex-wrap card-container cyan-container col-12 md:col-6 lg:col-3"
+        style="min-height: 200px">
+        <ng-container *ngFor="let card of cardData; let i = index">
+            <div class="m-2">
+                <p-card class="box shadow-6" header="{{card.itemName}}" subheader="{{card.subTitle}}"
+                    [style]="{width: '240px'}">
+                    <ng-template pTemplate="header">
+                        <img alt="Card" style="border-radius: 5%" height="170px" src="{{card.image}}">
+                    </ng-template>
+                    <div class="car-buttons">
+                        <p-button type="button" styleClass="p-button p-button-rounded mr-2" icon="pi pi-shopping-cart"></p-button>
+                        <p-button type="button" styleClass="p-button-success p-button-rounded mr-2" icon="pi pi-star-fill"></p-button>
+                    </div>
+                </p-card>
+            </div>
+        </ng-container>
+    </div>
+</div>

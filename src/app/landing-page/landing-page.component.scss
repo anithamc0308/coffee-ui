@@ -1,0 +1,22 @@
+:host ::ng-deep .p-button {
+    margin: 0 0.5rem 0 0;
+    min-width: 2rem;
+    color: black;
+    background: rgb(247, 120, 219);
+    border: none;
+}
+
+:host ::ng-deep .p-card {
+border-radius: 5%;
+height: 330px;
+}
+:host ::ng-deep .p-card .p-card-subtitle {
+    font-weight: bold;
+    margin-bottom: -0.5rem;
+    color: #6c757d;
+}
+.confirmation-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

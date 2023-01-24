@@ -1,0 +1,260 @@
+[
+  {
+    "id": 1,
+    "itemName": "idly",
+    "image": "../assets/images/idly.jpg",
+    "date": "week1"
+  },
+  {
+    "id": 2,
+    "itemName": "biryani",
+    "image": "../assets/images/biryani.jpg",
+    "date": "week2"
+  },
+  {
+    "id": 3,
+    "itemName": "dosa",
+    "image": "../assets/images/dosa.jpg",
+    "date": "week1"
+  },
+  {
+    "id": 4,
+    "itemName": "Chicken Bucket Biryani",
+    "image": "../assets/images/ChickenbucketBiryani.jpg",
+    "date": "week2"
+  },
+  {
+    "id": 5,
+    "itemName": "Cake",
+    "image": "../assets/images/cake.jpg",
+    "date": "week3"
+  },
+
+  {
+    "id": 6,
+    "itemName": "Coffee",
+    "image": "../assets/images/coffee.jpg",
+    "date": "week3"
+  },
+  {
+    "id": 7,
+    "itemName": "Ceylon Parotta",
+    "image": "../assets/images/CeylonParotta.jpg",
+    "date": "week4"
+  },
+
+  {
+    "id": 8,
+    "itemname": "Strawberry",
+    "image": "../assets/images/strawberry.jpg",
+    "date": "week4"
+  },
+  {
+    "id": 9,
+    "itemName": "Franchies",
+    "image": "../assets/images/franchies.jpg",
+    "date": "week3"
+  },
+
+  {
+    "id": 10,
+    "itemName": "Pizza",
+    "image": "../assets/images/pizza.jpg",
+    "date": "week2"
+  },
+  {
+    "id": 11,
+    "itemName": "Burger",
+    "image": "../assets/images/burger.jpg",
+    "date": "week1"
+  },
+  {
+    "id": 12,
+    "itemName": "Burger",
+    "image": "../assets/images/burger.jpg",
+    "date": "week4"
+  },
+  {
+    "id": 13,
+    "itemName": "Franchies",
+    "image": "../assets/images/franchies.jpg",
+    "date": "week1"
+  },
+  {
+    "id": 14,
+    "itemName": "Coffee",
+    "image": "../assets/images/coffee.jpg",
+    "date": "week2"
+  },
+  {
+      "id": 15,
+      "itemName": "Strawberry",
+      "image": "../assets/images/strawberry.jpg",
+      "date": "week4"
+    },
+    {
+      "id": 16,
+      "itemName": "Bucket Biryani With Kami Kabab",
+      "image": "../assets/images/BucketBiryaniWithKamiKabab.jpg",
+      "date": "week4"
+    },
+    {
+      "id": 17,
+      "itemName": "Chicken Manchurian Boneless",
+      "image": "../assets/images/ChickenManchurianBoneless.jpg",
+      "date": "week4"
+    },
+    {
+      "id": 18,
+      "itemName": "Chilly Kebab",
+      "image": "../assets/images/ChillyKebab.jpg",
+      "date": "week1"
+    },
+    {
+      "id": 19,
+      "itemName": "Coin Parotta",
+      "image": "../assets/images/CoinParotta.jpg",
+      "date": "week4"
+    },
+    {
+      "id": 20,
+      "itemName": "Dal Fry",
+      "image": "../assets/images/DalFry.jpg",
+      "date": "week1"
+    },
+    {
+      "id": 21,
+      "itemName": "Gajar Ka Halwa",
+      "image": "../assets/images/GajarKaHalwa.jpg",
+      "date": "week2"
+    },
+    {
+      "id": 22,
+      "itemName": "Ghee Rice",
+      "image": "../assets/images/GheeRice.jpg",
+      "date": "week4"
+    },
+    {
+      "id": 23,
+      "itemName": "Grilled Chicken",
+      "image": "../assets/images/GrilledChicken.jpg",
+      "date": "week4"
+    },
+    {
+      "id": 24,
+      "itemName": "Gulab Jamun",
+      "image": "../assets/images/GulabJam.jpg",
+      "date": "week4"
+    },
+    {
+      "id": 25,
+      "itemName": "Lemon Rice",
+      "image": "../assets/images/LemonRice.jpg",
+      "date": "week3"
+    },
+    {
+      "id": 26,
+      "itemName": "Paneer Butter Masala",
+      "image": "../assets/images/PaneerButterMasala.jpg",
+      "date": "week3"
+    },
+    {
+      "id": 26,
+      "itemName": "Pop Corn Kebab",
+      "image": "../assets/images/PopcornKebab.jpg",
+      "date": "week3"
+    },
+    {
+      "id": 27,
+      "itemName": "Shaadi Ki Biryani (Mutton)",
+      "image": "../assets/images/ShaadiKiBiryani(Mutton).jpg",
+      "date": "week3"
+    },
+    {
+      "id": 28,
+      "itemName": "Tandoori Chicken",
+      "image": "../assets/images/TandooriChicken.jpg",
+      "date": "week3"
+    },
+    {
+      "id": 29,
+      "itemName": "Gajar Ka Halwa",
+      "image": "../assets/images/GajarKaHalwa.jpg",
+      "date": "week3"
+    },
+    {
+      "id": 30,
+      "itemName": "Chicken Manchurian Boneless",
+      "image": "../assets/images/ChickenManchurianBoneless.jpg",
+      "date": "week3"
+    },
+    {
+      "id": 31,
+      "itemName": "Pine Apple Juice",
+      "image": "../assets/images/PineappleJuice.jpg",
+      "date": "week2"
+    },
+    {
+      "id": 32,
+      "itemName": "Pulpy Grape Juice",
+      "image": "../assets/images/PulpyGrapeJuice.jpg",
+      "date": "week2"
+    },
+    {
+      "id": 33,
+      "itemName": "Pine Apple Juice",
+      "image": "../assets/images/PineappleJuice.jpg",
+      "date": "week2"
+    },
+    {
+      "id": 34,
+      "itemName": "WaterMelon Juice",
+      "image": "../assets/images/Watermelonjuice.jpg",
+      "date": "week2"
+    },
+    {
+      "id": 35,
+      "itemName": "Musambi Juice",
+      "image": "../assets/images/MusambiJuice.jpg",
+      "date": "week2"
+    },
+    {
+      "id": 36,
+      "itemName": "Lime Juice",
+      "image": "../assets/images/LimeJuice.jpg",
+      "date": "week1"
+    },
+    {
+      "id": 37,
+      "itemName": "Fig(Anjeer)ThickShakes",
+      "image": "../assets/images/Fig(Anjeer)ThickShakes.jpg",
+      "date": "week1"
+    },
+    {
+      "id": 38,
+      "itemName": "Musk Melon Thick Shakes",
+      "image": "../assets/images/MuskMelonThickShakes.jpg",
+      "date": "week1"
+    },
+    {
+      "id": 39,
+      "itemName": "Papaya Thick Shake",
+      "image": "../assets/images/PapayaThickShake.jpg",
+      "date": "week1"
+    },
+    {
+      "id": 39,
+      "itemName": "Papaya Thick Shake",
+      "image": "../assets/images/PapayaThickShake.jpg",
+      "date": "week1"
+    },
+    {
+      "id": 40,
+      "itemName": "Tandoori Chicken",
+      "image": "../assets/images/TandooriChicken.jpg",
+      "date": "week1"
+    }
+
+    
+]   
+  
